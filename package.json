@@ -1,0 +1,16 @@
+{
+    "name": "MERN-Todo-App",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "frontend": "cd frontend && npm run start",
+        "backend": "cd backend && npm run dev",
+        "dev": "concurrently -n 'Backend,Frontend' -c 'green,blue' \"npm run backend\" \"npm run frontend\""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "concurrently": "^6.4.0"
+    }
+}

@@ -1,0 +1,11 @@
+.tableRow {
+  display: none;
+}
+.tableRow:hover .tableBTN {
+  display: block;
+}
+
+.table_options{
+  display: flex;
+  justify-content: space-between;
+}
